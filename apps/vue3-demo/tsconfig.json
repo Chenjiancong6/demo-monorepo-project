@@ -1,0 +1,15 @@
+{
+  // 继承根目录的TypeScript配置：复用基础配置
+  "extends": "../../tsconfig.json",
+  
+  "compilerOptions": {
+    // 类型声明：包含Node.js环境类型定义
+    "types": ["node"],
+    
+    // 标准库：包含ESNext和DOM API的类型定义
+    "lib": ["esnext", "DOM"]
+  },
+  
+  // 包含的文件：只编译src目录下的TypeScript文件
+  "include": ["src"]
+}
