@@ -2,7 +2,7 @@
   "name": "@packages/utils",
   "version": "1.0.0",
   "description": "monorepo项目工具库",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {},
   "author": "陈健聪",

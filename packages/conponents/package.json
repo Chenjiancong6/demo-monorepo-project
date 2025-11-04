@@ -2,8 +2,11 @@
   "name": "@packages/components",
   "version": "1.0.0",
   "description": "monorepo项目组件库",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
+   "exports": {
+    ".": "./src/index.ts"
+  },
   "scripts": {},
   "author": "陈健聪",
   "license": "ISC"
