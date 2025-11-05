@@ -7,9 +7,14 @@ import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
 import { onMounted } from 'vue';
 import { isObject } from '@packages/components';
+// import { isFunction } from '@packages/utils';
+import { isFunction } from '@packages/hooks';
+
+
 
 onMounted(() => {
   console.log('Welcome component mounted',isObject({}))
+  console.log('Welcome component mounted',isFunction({}))
 })
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')

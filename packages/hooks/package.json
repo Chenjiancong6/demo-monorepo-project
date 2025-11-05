@@ -1,7 +1,7 @@
 {
-  "name": "@packages/utils",
+  "name": "@packages/hooks",
   "version": "1.0.0",
-  "description": "monorepo项目工具库",
+  "description": "monorepo项目hooks库",
   "main": "index.ts",
   "type": "module",
   "exports": {
