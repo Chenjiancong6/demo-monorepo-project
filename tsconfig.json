@@ -2,56 +2,56 @@
   "compilerOptions": {
     // 基础路径配置：解析非相对模块名的基准目录
     "baseUrl": ".",
-    
+
     // 模块系统：使用ES模块系统
     "module": "esnext",
-    
+
     // 目标JavaScript版本：编译到ESNext标准
     "target": "esnext",
-    
+
     // 类型声明文件：不包含任何全局类型声明
     "types": [],
-    
+
     // 标准库：使用ESNext标准库
     "lib": ["esnext"],
-    
+
     // 生成源映射文件：便于调试
     "sourceMap": true,
-    
+
     // 生成声明文件：为TypeScript库提供类型定义
     "declaration": true,
-    
+
     // 生成声明文件的源映射：便于调试类型定义
     "declarationMap": true,
-    
+
     // 严格索引访问：数组和对象索引访问需要明确检查
     "noUncheckedIndexedAccess": true,
-    
+
     // 精确可选属性类型：可选属性必须明确为undefined或不存在
     "exactOptionalPropertyTypes": true,
-    
+
     // 启用所有严格类型检查选项
     "strict": true,
-    
+
     // 字面模块语法：不强制使用import type语法
     "verbatimModuleSyntax": false,
-    
+
     // 模块解析策略：使用bundler的模块解析方式
     "moduleResolution": "bundler",
-    
+
     // 独立模块编译：每个文件作为独立模块编译
     "isolatedModules": true,
-    
+
     // 无副作用导入检查：确保导入不会产生副作用
     "noUncheckedSideEffectImports": true,
-    
+
     // 模块检测方式：强制检测模块语法
     "moduleDetection": "force",
-    
+
     // 跳过库类型检查：提高编译速度
     "skipLibCheck": true
   },
-  
+
   // 排除目录：不编译node_modules和dist目录中的文件
   "exclude": ["node_modules", "dist"]
 }

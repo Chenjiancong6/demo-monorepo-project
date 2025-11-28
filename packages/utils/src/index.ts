@@ -1,4 +1,3 @@
-
-export const isFunction = (val: any) => {
-  return typeof val === 'function'
-}
+export const isFunction = (val: object) => {
+  return typeof val === "function";
+};

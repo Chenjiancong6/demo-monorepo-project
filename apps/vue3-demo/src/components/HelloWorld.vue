@@ -2,9 +2,9 @@
 defineProps({
   msg: {
     type: String,
-    required: true,
-  },
-})
+    required: true
+  }
+});
 </script>
 
 <template>
@@ -15,8 +15,15 @@ defineProps({
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
+    <el-button type="primary">我是 ElButton 按钮</el-button>
+    <ChButton type="primary">我是 ChButton 按钮</ChButton>
   </div>
 </template>
+
+<script setup>
+const ChenJianCong1 = () => {};
+ChenJianCong1();
+</script>
 
 <style scoped>
 h1 {
