@@ -1,3 +1,2 @@
-export const isObject = (val: object) => {
-  return val !== null && typeof val === "object";
-};
+import Title from './title/index.vue';
+export { Title };

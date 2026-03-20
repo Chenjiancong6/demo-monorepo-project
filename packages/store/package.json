@@ -1,0 +1,13 @@
+{
+  "name": "@packages/store",
+  "version": "1.0.0",
+  "description": "monorepo项目store库",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {},
+  "author": "陈健聪",
+  "license": "ISC"
+}

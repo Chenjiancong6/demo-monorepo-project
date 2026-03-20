@@ -1,10 +1,17 @@
 <script setup>
+import { isFunction } from "@packages/utils";
+import { Title } from "@packages/components";
+import { count } from "@packages/store";
+import { setChunk } from "@packages/utils";
+
 defineProps({
   msg: {
     type: String,
     required: true
   }
 });
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 </script>
 
 <template>
@@ -17,13 +24,12 @@ defineProps({
     </h3>
     <el-button type="primary">我是 ElButton 按钮</el-button>
     <ChButton type="primary">我是 ChButton 按钮</ChButton>
+    <div>是不是函数：{{ isFunction({}) }}</div>
+    <div>ff当前计数：{{ count }}</div>
+    <div>分块数组：{{ setChunk(arr, 3) }}</div>
+    <Title />
   </div>
 </template>
-
-<script setup>
-const ChenJianCong1 = () => {};
-ChenJianCong1();
-</script>
 
 <style scoped>
 h1 {

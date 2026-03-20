@@ -16,6 +16,8 @@
   "dependencies": {
     "@packages/components": "workspace:*",
     "@packages/hooks": "workspace:*",
+    "@packages/store": "workspace:*",
+    "@packages/style": "workspace:*",
     "@packages/utils": "workspace:*",
     "element-plus": "^2.11.8",
     "pinia": "^3.0.4",
